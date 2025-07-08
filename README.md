@@ -34,7 +34,7 @@ conda activate fed-stackfpad
 You can access and reproduce the results presented in the paper using the models available in  [Fed-StackFPAD/data](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/blob/master/data/README.md).
 
 ### Training and Evaluation
-You can find the necessary scripts for end-to-end training and evaluation in [Fed-StackFPAD/code/script](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/tree/code/script). In the sections below, example script calls are provided assuming Replay-Attack, Oulu-Npu, and Casia-Fasd are configured as federated data centers and Msu-Mfsd is used as the test set. For different configurations, script parameters can be updated according to the options specified in each script’s help description.
+You can find the necessary scripts for end-to-end training and evaluation in [Fed-StackFPAD/code/script](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/tree/master/code/script). In the sections below, example script calls are provided assuming Replay-Attack, Oulu-Npu, and Casia-Fasd are configured as federated data centers and Msu-Mfsd is used as the test set. For different configurations, script parameters can be updated according to the options specified in each script’s help description.
 
 #### Preprocessing of Datasets for an Experiment
 Our code support below datasets:
