@@ -31,17 +31,17 @@ conda activate fed-stackfpad
 * Python (3.8.12), torch (2.2.2), timm (0.5.4), numpy (1.21.2), pandas (1.4.2), scikit-learn (1.0.2), scipy (1.7.1), seaborn (0.11.2)
 
 ### Base ViT-B/16 and Fine-tuned ViT-B/16 Models
-You can access and reproduce the results presented in the paper using the models available in  [Fed-StackFPAD/data](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/tree/main/data/README.md).
+You can access and reproduce the results presented in the paper using the models available in  [Fed-StackFPAD/data](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/blob/master/data/README.md).
 
 ### Training and Evaluation
-You can find the necessary scripts for end-to-end training and evaluation in [Fed-StackFPAD/code/script](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/tree/main/code/script). In the sections below, example script calls are provided assuming Replay-Attack, Oulu-Npu, and Casia-Fasd are configured as federated data centers and Msu-Mfsd is used as the test set. For different configurations, script parameters can be updated according to the options specified in each script’s help description.
+You can find the necessary scripts for end-to-end training and evaluation in [Fed-StackFPAD/code/script](https://github.com/mehmetfatihgundogar/Fed-StackFPAD/tree/code/script). In the sections below, example script calls are provided assuming Replay-Attack, Oulu-Npu, and Casia-Fasd are configured as federated data centers and Msu-Mfsd is used as the test set. For different configurations, script parameters can be updated according to the options specified in each script’s help description.
 
 #### Preprocessing of Datasets for an Experiment
 Our code support below datasets:
-1. Replay-Attack
-2. Msu-Mfsd
-3. Oulu-Npu
-4. Casia-Fasd
+1. Replay-Attack (I)
+2. Msu-Mfsd (M)
+3. Oulu-Npu (O)
+4. Casia-Fasd (C)
 
 Use the provided script to preprocess the datasets:
 ```bash
