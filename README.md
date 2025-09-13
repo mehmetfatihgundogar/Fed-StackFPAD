@@ -27,7 +27,14 @@ conda env create -f environment.yml
 conda activate fed-stackfpad
 ```
 
+**Hardware**
 * NVIDIA GPU (Tested on NVIDIA Tesla V100 16GB GPUs via TRUBA HPC resources and NVIDIA RTX 6000 Ada Generation GPU on a local workstation)
+
+**Operating System**
+* Red Hat Enterprise Linux 9.2 (on RTX 6000 Ada Generation GPU)
+* Rocky Linux (on Tesla V100 GPUs via TRUBA HPC resources)
+  
+**Software**
 * Python (3.8.12), torch (2.2.2), timm (0.5.4), numpy (1.21.2), pandas (1.4.2), scikit-learn (1.0.2), scipy (1.7.1), seaborn (0.11.2)
 
 ### Base ViT-B/16 and Fine-tuned ViT-B/16 Models
