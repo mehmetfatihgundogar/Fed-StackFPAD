@@ -2,7 +2,7 @@
 
 **Federated Learning for Face Presentation Attack Detection with Stacking to Tackle Data Heterogeneity**  
 
-IEEE Access, 2025. [HTML (upon acceptance)]() | [Cite](#citation)
+IEEE Access, 2025. [Paper (accepted for publication in IEEE Access, to appear)]() | [Cite](#citation)
 
 **TL;DR:** PyTorch implementation of the Fed-StackFPAD framework for cross-domain face presentation attack detection (FPAD), integrating federated learning, self-supervised ViT pretraining on ImageNet-22K, and a stacking-based ensemble strategy to address domain shift and data heterogeneity.
 
