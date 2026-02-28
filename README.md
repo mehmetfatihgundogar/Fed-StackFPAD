@@ -192,7 +192,7 @@ If you find our work helpful in your research or if you use any source codes or 
 
 ```bibtex
 @article{gundogar2025fedstackfpad,
-  author={Gündoğar, Mehmet Fatih and Erdem, Çiğdem Eroğlu and Korçak, Ömer},
+  author={G{\"u}ndo{\u{g}}ar, Mehmet Fatih and Erdem, {\c{C}}i{\u{g}}dem Ero{\u{g}}lu and Kor{\c{c}}ak, {\"O}mer},
   journal={IEEE Access}, 
   title={Fed-StackFPAD: Federated Learning for Face Presentation Attack Detection With Stacking to Tackle Data Heterogeneity}, 
   year={2025},
