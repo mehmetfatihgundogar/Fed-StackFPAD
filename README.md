@@ -21,7 +21,7 @@ IEEE Access, 2025. [Paper](https://ieeexplore.ieee.org/document/11226990) | [Cit
 Clone the repository and create the environment:
 
 ```bash
-git clone https://github.com/your-username/Fed-StackFPAD.git
+git clone https://github.com/mehmetfatihgundogar/Fed-StackFPAD.git
 cd Fed-StackFPAD
 conda env create -f environment.yml
 conda activate fed-stackfpad
